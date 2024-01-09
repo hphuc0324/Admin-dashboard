@@ -1,0 +1,116 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    color: var(--text-main);
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    background-color: rgb(51,49,48);
+}
+
+.nav{
+  
+    min-height: 500px;
+}
+
+.nav.nav--left{
+    border: 1px solid #424242;
+    border-left: none;
+}
+
+.nav__body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    border-top: 1px solid #424242;
+    border-bottom: 1px solid #424242;
+    padding: 32px 0;
+}
+
+.nav__list{
+    /* padding: 16px; */
+}
+
+.nav-list__item{
+    margin-bottom: 8px;
+    font-size: 1.4rem;
+    color: rgb(111, 109, 114);
+}
+
+.nav-list__item a{
+    padding: 16px;
+    width: 120px;
+    display: block;
+    border-radius: 8px;
+    
+}
+
+.nav-item__icon{
+    margin-right: 8px;
+    color: inherit;
+}
+
+.nav-item__link:hover{
+   background-color: rgb(88,84,93);
+   color: var(--text-main);
+}
+
+.logo{
+   height: 90px;
+   display: flex;
+   align-items: center;
+   font-size: 1.8rem;
+   font-weight: 500;
+}
+
+.logo__icon{
+    margin-right: 8px;
+    color: #617caa;
+}
+
+.logo__link{
+    padding: 16px;
+}
+
+.exit{
+    height: 90px;
+}
+
+.btn{
+    width: 120px;
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    
+}
+
+.btn.btn--main{
+    background-color:rgb(88,84,93);
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+#add__icon{
+    padding: 6px;
+    border-radius: 50%;
+    color: black;
+    background-color: white;
+    display: inline-flex;
+    font-size: 0.8rem;
+    margin-right: 8px;
+}
