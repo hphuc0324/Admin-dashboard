@@ -14,9 +14,9 @@
 </head>
 <body>
     <div class="container">
-        <div class="grid wide">
-            <div class="row">
-                <div class="nav nav--left l-2">
+        <div class="grid">
+            <div class="row no-gutters main">
+                <div class="nav nav--left col l-2">
                     <div class="logo">
                         <a href="" class="logo__link">
                             <i class="fa-solid fa-layer-group logo__icon"></i>
@@ -60,41 +60,46 @@
 
                         <div class="btn btn--main">
                             
-                                <i class="fa-solid fa-plus" id="add__icon"></i>
+                                <i class="fa-solid fa-plus icon" id="add__icon"></i>
                                 Ask task
                             
                         </div>
                     </div>
                     
                     <div class="exit">
-                        <a href="" class="exit__link">
-                            <i class="fa-solid fa-power-off"></i>
-                            Log out
+                        <div class="btn btn--no-background">
+                            <i class="fa-solid fa-power-off icon" id="off__icon"></i>
+                            Log out</div>
+                    </div>
+                </div>
+
+                <div class="content col l-9">
+                    <div class="content__header">
+                        <div class="user">
+                            <div class="user__avt" style="background-image: url('../AdminDashboard/assets/images/user_avt_1.png');"></div>
+                            <span class="user__name">Hoang Phuc</span>
+                            <i class="fa-solid fa-chevron-down user-changing__icon"></i>
+                        </div>
+
+                        <a href="" class="settings">
+                            <i class="fa-solid fa-sliders"></i>
                         </a>
                     </div>
                 </div>
 
-                <div class="content l-9">
-                    
-                </div>
-
-                <div class="nav nav--right l-1">
+                <div class="nav nav--right col l-1">
                     <ul class="nav__list">
                         <li class="nav-list__item">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                            <i class="nav-item__icon"></i>
+                            <i class="nav-item__icon fa-solid fa-magnifying-glass"></i>
                         </li>
                         <li class="nav-list__item">
-                            <i class="fa-regular fa-bell"></i>
-                            <i class="nav-item__icon"></i>
+                            <i class="nav-item__icon fa-regular fa-bell"></i>
                         </li>
                         <li class="nav-list__item">
-                            <i class="fa-regular fa-comment"></i>
-                            <i class="nav-item__icon"></i>
+                            <i class="nav-item__icon fa-regular fa-comment"></i>
                         </li>
                         <li class="nav-list__item">
-                            <i class="fa-regular fa-calendar"></i>
-                            <i class="nav-item__icon"></i>
+                            <i class="nav-item__icon fa-regular fa-calendar"></i>
                         </li>
                     </ul>
                 </div>
